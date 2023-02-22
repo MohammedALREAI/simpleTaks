@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+     min-height: 100%;
+}
+
+
+.headerTitle {
+     font-size: 1.5rem;
+     line-height: 36px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     line-height: 2rem;
+     /* identical to box height */
+     color: #121212;
+     margin-bottom: 1.5rem;
+}
+
+.countReview {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.2rem;
+     line-height: 1.8rem;
+
+     text-decoration-line: underline;
+
+     color: #121212;
+
+     opacity: 0.5
+}
+
+.priceOld {
+
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1.5rem;
+     line-height: 2rem;
+     text-decoration-line: line-through;
+     color: #121212;
+
+     opacity: 0.4;
+}
+
+.price {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 60px;
+     line-height: 90px;
+     /* identical to box height */
+
+     display: flex;
+     align-items: center;
+
+     color: #121212;
+}
+
+.activeTab {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 36px;
+     /* identical to box height */
+
+
+     color: #000000;
+
+     opacity: 0.8;
+}
+
+.itemCard {
+     width: 100%;
+     height: 100%;
+     margin-top: 1.5rem;
+     border-radius: 10px;
+     padding-bottom: 20px;
+     background: #FFFFFF;
+     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.06);
+     border-radius: 30px;
+     background: #FFFFFF;
+     box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.06);
+}
+
+.itemCard img {
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     border-radius: 30px;
+}
+
+.itemCard .innerCard {
+     display: flex;
+     flex-direction: column;
+     /*  item center */
+     justify-content: center;
+     align-items: center;
+     margin-top: 1rem;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 1rem;
+}
+
+.itemCard .innerCard .price {
+
+     font-weight: 600;
+     font-size: 1.5rem;
+     line-height: 36px;
+     color: #554AF0;
+}
+
+
+.itemCard .innerCard .oldPrice {
+     line-height: 1.5rem;
+     color: #8D8D8D;
+     margin: 0 0.5rem;
+}
+
+.itemCard .innerCard .title {
+     line-height: 1.8rem;
+     text-align: center;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 30px;
+     color: #000000;
+     text-align: center;
+     width: 70%;
+}
+
+/* identical to box height */
+
+
+.counter {
+     width: 278px;
+     height: 80px;
+
+     border: 1px solid #000000;
+     border-radius: 8px;
+     /*  flex center */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px
+}
+
+.counter p {
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+
+
+     color: #000000;
+}
+
+.favorite {
+     width: 80px;
+     height: 80px;
+     background: rgba(69, 110, 214, 0.1);
+     border: 1px solid #456ED6;
+     border-radius: 20px;
+}
